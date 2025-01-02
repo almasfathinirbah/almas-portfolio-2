@@ -7,7 +7,6 @@ import { Link as ScrollLink } from "react-scroll";
 import RotatingShape from "./RotatingShape";
 import Header from "./Header";
 import Stats from "./Stats/Stats";
-import Model3D from "./Model3D";
 
 const Hero = () => {
   return (
@@ -49,6 +48,18 @@ const Hero = () => {
               className="object-contain"
               alt=""
             /> */}
+            <div style={{ width: "100%", height: "100vh", textAlign: "center", marginTop: "30px" }}>
+            {/* Embed Sketchfab Model dengan latar belakang transparan */}
+            <iframe
+                title="3D Model"
+                src="https://sketchfab.com/models/76430ca6692b4238a54b5d12e90550c5/embed?background_color=000000&transparent=1&autostart=1&hide_controls=1&hide_logo=1&hide_settings=1&camera_position=0,0,5"
+                width="100%"
+                height="55%"
+                frameBorder="0"
+                allow="autoplay; fullscreen; vr"
+                allowFullScreen
+              />
+            </div>
           </div>
           {/* arrow shape */}
           <div
