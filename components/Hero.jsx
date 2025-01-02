@@ -40,17 +40,16 @@ const Hero = () => {
         {/* image */}
         <div className="hidden xl:flex w-[55vw] h-[800px] absolute top-0 right-0 bg-accent">
           <div className="absolute w-[558px] h-[642px] bottom-0 z-40 left-[2.5vw]">
-            {/* <Image
-              src="/assets/hero/dev.png"
-              fill
-              quality="100"
-              priority
-              className="object-contain"
-              alt=""
-            /> */}
-            <div style={{ width: "100%", height: "100vh", textAlign: "center", marginTop: "30px" }}>
-            {/* Embed Sketchfab Model dengan latar belakang transparan */}
-            <iframe
+            <div
+              style={{
+                width: "100%",
+                height: "100vh",
+                textAlign: "center",
+                marginTop: "30px",
+              }}
+            >
+              {/* Embed Sketchfab Model dengan latar belakang transparan */}
+              <iframe
                 title="3D Model"
                 src="https://sketchfab.com/models/76430ca6692b4238a54b5d12e90550c5/embed?background_color=000000&transparent=1&autostart=1&hide_controls=1&hide_logo=1&hide_settings=1&camera_position=0,0,5"
                 width="130%"
