@@ -64,7 +64,7 @@ const journey = [
   // education
   {
     type: "education",
-    company: "PT. Irodori Global Indonesia",
+    institution: "PT. Irodori Global Indonesia",
     logoUrl: "/assets/journey/education/irodori.jpg",
     qualification: "Japanese Language and SSW Preparation",
     duration: "Feb 2022 - Sep 2022",
@@ -73,7 +73,7 @@ const journey = [
   },
   {
     type: "education",
-    company: "Digital Talent Scholarship - KOMINFO",
+    institution: "Digital Talent Scholarship - KOMINFO",
     logoUrl: "/assets/journey/education/digital_talent_scholarship.jpeg",
     qualification: "Progate - Full Stack Developer with Ruby",
     duration: "Mar 2022 - Apr 2022",
@@ -82,7 +82,7 @@ const journey = [
   },
   {
     type: "education",
-    company: "Digital Talent Scholarship - KOMINFO",
+    institution: "Digital Talent Scholarship - KOMINFO",
     logoUrl: "/assets/journey/education/digital_talent_scholarship.jpeg",
     qualification: "IBM – Machine Learning",
     duration: "May 2021 - Jul 2021",
@@ -91,7 +91,7 @@ const journey = [
   },
   {
     type: "education",
-    company: "PT. Dibimbing Digital Indonesia",
+    institution: "PT. Dibimbing Digital Indonesia",
     logoUrl: "/assets/journey/education/dibimbing_id.jpeg",
     qualification: "Data Science Bootcamp",
     duration: "Apr 2021 - Aug 2021",
@@ -100,7 +100,7 @@ const journey = [
   },
   {
     type: "education",
-    company: "Universitas Ibn Khaldun Bogor",
+    institution: "Universitas Ibn Khaldun Bogor",
     logoUrl: "/assets/journey/education/uika.jpeg",
     qualification: "Bachelor of Engineering - Major in Civil Engineering",
     duration: "Sep 2016 - Aug 2020",
