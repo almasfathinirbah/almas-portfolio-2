@@ -26,14 +26,14 @@ const About = () => {
               <div className="w-[160px] h-[160px] bg-accent absolute -left-5 -top-5 -z-10"></div>
               {/* image */}
               <div className="rounded-tl-[8px] rounded-tr-[120px] w-full bg-[#e5f8f6] min-h-[480px] flex items-end justify-center">
-                <Image
+                {/* <Image
                   src="/assets/about/img.png"
                   width={350}
                   height={478}
                   quality={100}
                   priority
                   alt=""
-                />
+                /> */}
               </div>
               {/* rotating shape */}
               <div className="absolute top-2/4 -right-[65px] flex items-center justify-center">
@@ -83,42 +83,42 @@ const About = () => {
               {/* item 1 */}
               <div className="flex items-center gap-x-4 mx-auto xl:mx-0">
                 <div className="uppercase font-bold text-primary">
-                  <User2 />
+                  <User2 className="text-accent" />
                 </div>
                 <p>Almas Fathin Irbah</p>
               </div>
               {/* item 2 */}
               <div className="flex items-center gap-x-4 mx-auto xl:mx-0">
                 <div className="uppercase font-bold text-primary">
-                  <GraduationCap />
+                  <GraduationCap className="text-accent" />
                 </div>
                 <p>Bachelor on Civil Engineering</p>
               </div>
               {/* item 3 */}
               <div className="flex items-center gap-x-4 mx-auto xl:mx-0">
                 <div className="uppercase font-bold text-primary">
-                  <HomeIcon />
+                  <HomeIcon className="text-accent" />
                 </div>
                 <p>Jakarta, Indonesia</p>
               </div>
               {/* item 2 */}
               <div className="flex items-center gap-x-4 mx-auto xl:mx-0">
                 <div className="uppercase font-bold text-primary">
-                  <Calendar />
+                  <Calendar className="text-accent" />
                 </div>
                 <p>Born on 14 Dec, 1997</p>
               </div>
               {/* item 3 */}
               <div className="flex items-center gap-x-4 mx-auto xl:mx-0">
                 <div className="uppercase font-bold text-primary">
-                  <PhoneCall />
+                  <PhoneCall className="text-accent" />
                 </div>
                 <p>+62 895 1667 5487</p>
               </div>
               {/* item 4 */}
               <div className="flex items-center gap-x-4 mx-auto xl:mx-0">
                 <div className="uppercase font-bold text-primary">
-                  <MailIcon />
+                  <MailIcon className="text-accent" />
                 </div>
                 <p>almasfathinirbah@gmail.com</p>
               </div>

@@ -7,6 +7,7 @@ import { Link as ScrollLink } from "react-scroll";
 import RotatingShape from "./RotatingShape";
 import Header from "./Header";
 import Stats from "./Stats/Stats";
+import Model3D from "./Model3D";
 
 const Hero = () => {
   return (
@@ -28,7 +29,8 @@ const Hero = () => {
             />
           </h1>
           <p className="lead max-w-[476px] mb-7">
-            Delivering powerful, custom website and mobile applications that blend aesthetics with best performance.
+            Delivering powerful, custom website and mobile applications that
+            blend aesthetics with best performance.
           </p>
           <ScrollLink to="contact" smooth>
             <button className="btn btn-accent mb-8">Contact Me</button>
@@ -39,14 +41,14 @@ const Hero = () => {
         {/* image */}
         <div className="hidden xl:flex w-[55vw] h-[800px] absolute top-0 right-0 bg-accent">
           <div className="absolute w-[558px] h-[642px] bottom-0 z-40 left-[6.5vw]">
-            <Image
+            {/* <Image
               src="/assets/hero/dev.png"
               fill
               quality="100"
               priority
               className="object-contain"
               alt=""
-            />
+            /> */}
           </div>
           {/* arrow shape */}
           <div
