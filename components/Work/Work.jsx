@@ -20,6 +20,18 @@ const data = [
   },
   {
     href: "",
+    category: "dashboard",
+    img: "/assets/work/thumb-6.png",
+    title: "Apollo Travel Platform",
+  },
+  {
+    href: "",
+    category: "dashboard",
+    img: "/assets/work/thumb-7.png",
+    title: "Horizon SaaS Platform",
+  },
+  {
+    href: "",
     category: "frontend",
     img: "/assets/work/thumb-3.png",
     title: "Velox App",
@@ -47,6 +59,36 @@ const data = [
     category: "fullstack",
     img: "/assets/work/thumb-7.png",
     title: "Horizon SaaS Platform",
+  },
+  {
+    href: "",
+    category: "mobile",
+    img: "/assets/work/thumb-1.png",
+    title: "Luminex UI Kit",
+  },
+  {
+    href: "",
+    category: "mobile",
+    img: "/assets/work/thumb-2.png",
+    title: "Nebula Dasboard",
+  },
+  {
+    href: "",
+    category: "mobile",
+    img: "/assets/work/thumb-3.png",
+    title: "Velox App",
+  },
+  {
+    href: "",
+    category: "AI",
+    img: "/assets/work/thumb-4.png",
+    title: "Quantum Portfolio",
+  },
+  {
+    href: "",
+    category: "AI",
+    img: "/assets/work/thumb-5.png",
+    title: "Synergy App UI",
   },
 ];
 
