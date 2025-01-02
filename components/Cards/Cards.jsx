@@ -67,7 +67,7 @@ const journey = [
     company: "PT. Irodori Global Indonesia",
     logoUrl: "/assets/journey/education/irodori.jpg",
     qualification: "Japanese Language and SSW Preparation",
-    duration: "Mar 2022 - Apr 2022",
+    duration: "Feb 2022 - Sep 2022",
     description:
       "Prepared intensive study for Japanese language certificate, namely JLPT N4 or JFT A2 language certificate and certification of work skills in fisheries, specializing in Hotate shellfish, namely SSW certificate",
   },
