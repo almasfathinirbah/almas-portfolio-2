@@ -2,6 +2,7 @@
 import Card from "./Card";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { motion, AnimatePresence } from "framer-motion";
+import Image from "next/image";
 
 import {
   FaHtml5,
@@ -195,7 +196,17 @@ const Cards = () => {
         <TabsContent value="skills" className="w-full">
           {/* languages */}
           <div className="flex flex-col items-center gap-y-2">
-            <div className="text-lg font-semibold text-primary">Language Skills</div>
+            <div className="flex gap-2">
+              <Image
+                src="/assets/journey/shape.svg"
+                width={16}
+                height={16}
+                alt=""
+              />
+              <div className="text-lg font-semibold text-primary">
+                Language Skills
+              </div>
+            </div>
             <div className="border-b border-border"></div>
             <div className="w-4/5 max-w-lg">
               {languages.map((lang) => (
