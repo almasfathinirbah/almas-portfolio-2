@@ -10,7 +10,7 @@ const LanguageSkillBar = ({ language, level }) => {
         {levels.map((lvl, index) => (
           <div
             key={lvl}
-            className={`h-5 flex-1 rounded ${
+            className={`h-6 flex-1 rounded ${
               index <= currentLevelIndex ? "bg-accent" : "bg-gray-200"
             }`}
           ></div>

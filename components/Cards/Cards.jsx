@@ -27,76 +27,85 @@ const journey = [
   // experience
   {
     type: "experience",
-    company: "Odeao Labs",
-    logoUrl: "/assets/journey/experience/logo-1.svg",
-    position: "Web Developer",
-    duration: "Jul 2021 - Present",
+    company: "PT. Telekomunikasi Selular",
+    logoUrl: "/assets/journey/experience/pt-telkomsel.png",
+    position: "Network IT Helpdesk",
+    duration: "Jul 2023 - Present",
     description:
       "Lorem ipsum odor amet, consectetuer adipiscing elit. Nisl torquent semper interdum efficitur leo torquent primis rhoncus bibendum. Hendrerit dui torquent facilisis pharetra a habitant blandit enim. Ut primis molestie eget nisi laoreet commodo.",
   },
   {
     type: "experience",
-    company: "Stack3d Labs",
-    logoUrl: "/assets/journey/experience/logo-2.svg",
-    position: "Frontend Developer",
-    duration: "Mar 2019 - Jun 2021",
+    company: "PT. Mitra Integrasi Informatika",
+    logoUrl: "/assets/journey/experience/pt-mii.png",
+    position: "Application Developer Junior",
+    duration: "Oct 2022 - Present",
     description:
       "Lorem ipsum odor amet, consectetuer adipiscing elit. Finibus senectus dis massa id vestibulum dignissim pulvinar porttitor. Dui neque feugiat netus torquent finibus suspendisse. Justo dapibus ex ac dictum est.",
   },
   {
     type: "experience",
     company: "Magnolia",
-    logoUrl: "/assets/journey/experience/logo-3.svg",
-    position: "UI/UX Developer",
-    duration: "Jan 2017 - Feb 2019",
+    logoUrl: "/assets/journey/experience/pt-abipraya.jpeg",
+    position: "Site Engineering at Ciawi Dam Construction Project",
+    duration: "Jul 2019 - Sep 2019",
     description:
-      "Lorem ipsum odor amet, consectetuer adipiscing elit. Lobortis magnis etiam aliquet pellentesque pretium, senectus mi.",
+      "Tested materials for concrete mixes and strength of concrete, assisted the task of the project manager who has the task in technical and material planning which includes providing all shop drawings and made the necessary construction calculations, and reviewed construction plans and financial projections to verify accuracy and feasibility of at Ciawi Dam Construction project.",
   },
   {
     type: "experience",
-    company: "Warspeed Inc",
-    logoUrl: "/assets/journey/experience/logo-4.svg",
-    position: "Full Stack Developer",
-    duration: "Aug 2015 - Dec 2016",
+    company: "PT. Bina Infra Antarnusa",
+    logoUrl: "/assets/journey/experience/pt-bia.jpeg",
+    position: "Traffic Counting Surveyor",
+    duration: "Sep 2017 - Oct 2018",
     description:
-      "Lorem ipsum odor amet, consectetuer adipiscing elit. Dignissim nam facilisis iaculis senectus natoque, dignissim dui. Mauris ut sed consectetur tortor senectus lobortis.",
+      " Inspected traffic control devices to verify functionality, placement and safety compliance, gathered traffic data and known the characteristics of traffic, and known the composition of the vehicle.",
   },
   // education
   {
     type: "education",
-    company: "Udemy",
-    logoUrl: "/assets/journey/education/logo-1.svg",
-    qualification: "Web Development",
-    duration: "Jan 2020 - Apr 2020",
+    company: "PT. Irodori Global Indonesia",
+    logoUrl: "/assets/journey/education/irodori.jpg",
+    qualification: "Japanese Language and SSW Preparation",
+    duration: "Mar 2022 - Apr 2022",
     description:
-      "Lorem ipsum odor amet, consectetuer adipiscing elit. Accumsan amet ipsum erat dui tristique sem lorem pulvinar. Posuere maximus scelerisque; eu fames tempus tempor. Penatibus nisl tellus; tempus nam inceptos sit pretium finibus sagittis.",
+      "Prepared intensive study for Japanese language certificate, namely JLPT N4 or JFT A2 language certificate and certification of work skills in fisheries, specializing in Hotate shellfish, namely SSW certificate",
   },
   {
     type: "education",
-    company: "CodeAcademy Bootcamp",
-    logoUrl: "/assets/journey/education/logo-2.svg",
-    qualification: "Full Stack Dev Cart",
-    duration: "Jan 2020 - May 2020",
+    company: "Digital Talent Scholarship - KOMINFO",
+    logoUrl: "/assets/journey/education/digital_talent_scholarship.jpeg",
+    qualification: "Progate - Full Stack Developer with Ruby",
+    duration: "Mar 2022 - Apr 2022",
     description:
-      "Lorem ipsum odor amet, consectetuer adipiscing elit. Euismod malesuada dictumst duis; proin dignissim habitasse turpis volutpat.",
+      "Learned the basics of 2 programming languages ​​and 1 framework: HTML & CSS, Ruby, and Ruby on Rails. Ruby is widely used by large companies such as Gojek, crunchbase, and airbnb.",
   },
   {
     type: "education",
-    company: "Design Institute",
-    logoUrl: "/assets/journey/education/institution.svg",
-    qualification: "UI/UX Diploma",
-    duration: "Aug 2018 - Dec 2018",
+    company: "Digital Talent Scholarship - KOMINFO",
+    logoUrl: "/assets/journey/education/digital_talent_scholarship.jpeg",
+    qualification: "IBM – Machine Learning",
+    duration: "May 2021 - Jul 2021",
     description:
-      "Lorem ipsum odor amet, consectetuer adipiscing elit. Fringilla cubilia feugiat egestas convallis at. Pellentesque eros suspendisse egestas netus eget mi dapibus.",
+      "Learning Data Analysis, Data Visualization, and Machine Learning.",
   },
   {
     type: "education",
-    company: "Business School",
-    logoUrl: "/assets/journey/education/institution.svg",
-    qualification: "Project Management Cert",
-    duration: "Mar 2021 - Jun 2021",
+    company: "PT. Dibimbing Digital Indonesia",
+    logoUrl: "/assets/journey/education/dibimbing_id.jpeg",
+    qualification: "Data Science Bootcamp",
+    duration: "Apr 2021 - Aug 2021",
     description:
-      "Lorem ipsum odor amet, consectetuer adipiscing elit. Porta elit augue pretium facilisi ridiculus volutpat enim suspendisse. Ut penatibus habitasse feugiat eget finibus inceptos adipiscing nisl. Amet vitae faucibus eleifend arcu habitant viverra.",
+      "A 3-months Data Science Bootcamp Fullstack program provides the opportunity to learn about data science intensively with experts.",
+  },
+  {
+    type: "education",
+    company: "Universitas Ibn Khaldun Bogor",
+    logoUrl: "/assets/journey/education/uika.jpeg",
+    qualification: "Bachelor of Engineering - Major in Civil Engineering",
+    duration: "Sep 2016 - Aug 2020",
+    description:
+      "Activities and societies: Himpunan Mahasiswa Teknik Sipil UIKA Bogor, Asisten Kajian Islam UIKA Bogor, Swimming, Futsal, and Badminton.Activities and societies: Himpunan Mahasiswa Teknik Sipil UIKA Bogor, Asisten Kajian Islam UIKA Bogor, Swimming, Futsal, and Badminton. Bachelor’s Final Project : Study of Passenger Car Speed on Noise Caused (Case Study: Nurul Hidayah Mosque, Salabenda Raya Street, Bogor Regency)",
   },
   // skills
   {
@@ -194,30 +203,6 @@ const Cards = () => {
           </AnimatePresence>
         </TabsContent>
         <TabsContent value="skills" className="w-full">
-          {/* languages */}
-          <div className="flex flex-col items-center gap-y-2">
-            <div className="flex gap-2">
-              <Image
-                src="/assets/journey/shape.svg"
-                width={16}
-                height={16}
-                alt=""
-              />
-              <div className="text-lg font-semibold text-primary">
-                Language Skills
-              </div>
-            </div>
-            <div className="border-b border-border"></div>
-            <div className="w-4/5 max-w-lg">
-              {languages.map((lang) => (
-                <LanguageSkillBar
-                  key={lang.language}
-                  language={lang.language}
-                  level={lang.level}
-                />
-              ))}
-            </div>
-          </div>
           <AnimatePresence>
             <motion.div
               initial={{ opacity: 0, y: 20 }}
@@ -225,6 +210,30 @@ const Cards = () => {
               exit={{ opacity: 0, y: 20 }}
               transition={{ duration: 0.3 }}
             >
+              {/* languages */}
+              <div className="flex flex-col items-center gap-y-2">
+                <div className="flex gap-2">
+                  <Image
+                    src="/assets/journey/shape.svg"
+                    width={16}
+                    height={16}
+                    alt=""
+                  />
+                  <div className="text-lg font-semibold text-primary">
+                    Language Skills
+                  </div>
+                </div>
+                <div className="border-b border-border"></div>
+                <div className="w-4/5 max-w-lg">
+                  {languages.map((lang) => (
+                    <LanguageSkillBar
+                      key={lang.language}
+                      language={lang.language}
+                      level={lang.level}
+                    />
+                  ))}
+                </div>
+              </div>
               {journey
                 .filter((item) => item.type === "skill")
                 .map((card, index) => {
