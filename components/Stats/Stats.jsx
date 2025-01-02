@@ -2,12 +2,12 @@ import StatsItem from "./StatsItem";
 
 const statsData = [
   {
-    endCountNum: 10,
+    endCountNum: 1,
     endCounText: "+",
     text: "Yrs. of Experience",
   },
   {
-    endCountNum: 100,
+    endCountNum: 10,
     endCounText: "+",
     text: "Website Built",
   },

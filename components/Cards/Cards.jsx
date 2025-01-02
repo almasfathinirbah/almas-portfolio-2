@@ -12,6 +12,16 @@ import {
   FaFigma,
 } from "react-icons/fa";
 
+import LanguageSkillBar from "./LanguageSkillBar";
+
+const languages = [
+  { language: "English", level: "B1" },
+  { language: "Indonesia", level: "Native" },
+  { language: "Russian", level: "A1" },
+  { language: "Japanese", level: "A1" },
+  { language: "Turkish", level: "A1" },
+];
+
 const journey = [
   // experience
   {
@@ -183,6 +193,20 @@ const Cards = () => {
           </AnimatePresence>
         </TabsContent>
         <TabsContent value="skills" className="w-full">
+          {/* languages */}
+          <div className="flex flex-col items-center gap-y-2">
+            <div className="text-lg font-semibold text-primary">Language Skills</div>
+            <div className="border-b border-border"></div>
+            <div className="w-4/5 max-w-lg">
+              {languages.map((lang) => (
+                <LanguageSkillBar
+                  key={lang.language}
+                  language={lang.language}
+                  level={lang.level}
+                />
+              ))}
+            </div>
+          </div>
           <AnimatePresence>
             <motion.div
               initial={{ opacity: 0, y: 20 }}

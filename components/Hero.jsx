@@ -19,7 +19,7 @@ const Hero = () => {
             <span className="text-accent">I Build And</span> Design Powerful
             <TypeAnimation
               preRenderFirstString={true}
-              sequence={["Websites", 2000, "Apps", 2000]}
+              sequence={["Websites", 2000, "Mobiles", 2000]}
               speed={50}
               repeat={Infinity}
               wrapper="span"
@@ -28,8 +28,7 @@ const Hero = () => {
             />
           </h1>
           <p className="lead max-w-[476px] mb-7">
-            Delivering powerful, custom websites that blend aesthetics with
-            performance.
+            Delivering powerful, custom website and mobile applications that blend aesthetics with best performance.
           </p>
           <ScrollLink to="contact" smooth>
             <button className="btn btn-accent mb-8">Contact Me</button>

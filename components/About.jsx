@@ -4,6 +4,16 @@ import { motion } from "framer-motion";
 // components
 import AnimatedText from "./AnimatedText";
 
+import {
+  User2,
+  MailIcon,
+  HomeIcon,
+  PhoneCall,
+  GraduationCap,
+  Calendar,
+  Briefcase,
+} from "lucide-react";
+
 const About = () => {
   return (
     <section className="relative pt-12 pb-24" id="about">
@@ -45,7 +55,7 @@ const About = () => {
                   />
                 </motion.div>
                 <div className="absolute text-center text-white">
-                  <div className="text-5xl font-bold leading-none">10+</div>
+                  <div className="text-5xl font-bold leading-none">1+</div>
                   <div className="leading-none text-center">
                     Years of <br /> Experience
                   </div>
@@ -57,31 +67,59 @@ const About = () => {
           <div className="text-center xl:text-left w-full xl:w-[50%] mx-auto xl:mx-0 flex flex-col gap-6">
             <div>
               <AnimatedText text="My Name is Almas" textStyles="h2 mb-2" />
-              <p className="text-lg">Frontend Developer & Designer</p>
+              <p className="text-lg">Fullstack Developer & Designer</p>
             </div>
             <p className="max-w-[680px] mx-auto xl:mx-0 mb-2">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus tempus, leo sit amet hendrerit molestie, magna nunc suscipit sapien, nec suscipit metus orci eget ipsum. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. In feugiat dictum dui, at mattis augue. Cras sagittis arcu lorem, ut bibendum est fermentum nec. Phasellus pulvinar eros augue, nec bibendum est scelerisque non. Fusce ultrices, orci a facilisis efficitur, nibh augue aliquam est, non lobortis massa velit eget quam. Nulla facilisis quis diam quis lacinia. Ut ut porta velit. Donec in nisi a felis volutpat dignissim vel vel eros. Phasellus ultrices risus vitae arcu pharetra, non tincidunt massa pellentesque.
+              I am a passionate Fullstack Developer and Designer with over 2
+              years of professional experience in building innovative solutions.
+              My expertise spans web and mobile development, artificial
+              intelligence, and cybersecurity, where I craft user-focused
+              designs and robust systems. I thrive on creating seamless, secure,
+              and scalable applications that deliver real-world impact. Let's
+              collaborate to bring ideas to life through technology!
             </p>
             {/* info items */}
-            <div className="flex flex-col lg:flex-row gap-8 xl:gap-12 max-w-max mx-auto xl:mx-0 items-center">
+            <div className="grid xl:grid-cols-2 gap-4 mb-12">
               {/* item 1 */}
-              <div className="max-w-max">
-                <div className="uppercase font-bold text-primary">Age</div>
-                <p>26 Years Old</p>
+              <div className="flex items-center gap-x-4 mx-auto xl:mx-0">
+                <div className="uppercase font-bold text-primary">
+                  <User2 />
+                </div>
+                <p>Almas Fathin Irbah</p>
               </div>
               {/* item 2 */}
-              <div className="max-w-max">
-                <div className="uppercase font-bold text-primary">Born in</div>
-                <p>Klaten, Indonesia</p>
+              <div className="flex items-center gap-x-4 mx-auto xl:mx-0">
+                <div className="uppercase font-bold text-primary">
+                  <GraduationCap />
+                </div>
+                <p>Bachelor on Civil Engineering</p>
               </div>
               {/* item 3 */}
-              <div className="max-w-max">
-                <div className="uppercase font-bold text-primary">Phone</div>
+              <div className="flex items-center gap-x-4 mx-auto xl:mx-0">
+                <div className="uppercase font-bold text-primary">
+                  <HomeIcon />
+                </div>
+                <p>Jakarta, Indonesia</p>
+              </div>
+              {/* item 2 */}
+              <div className="flex items-center gap-x-4 mx-auto xl:mx-0">
+                <div className="uppercase font-bold text-primary">
+                  <Calendar />
+                </div>
+                <p>Born on 14 Dec, 1997</p>
+              </div>
+              {/* item 3 */}
+              <div className="flex items-center gap-x-4 mx-auto xl:mx-0">
+                <div className="uppercase font-bold text-primary">
+                  <PhoneCall />
+                </div>
                 <p>+62 895 1667 5487</p>
               </div>
               {/* item 4 */}
-              <div className="max-w-max">
-                <div className="uppercase font-bold text-primary">Email</div>
+              <div className="flex items-center gap-x-4 mx-auto xl:mx-0">
+                <div className="uppercase font-bold text-primary">
+                  <MailIcon />
+                </div>
                 <p>almasfathinirbah@gmail.com</p>
               </div>
             </div>
